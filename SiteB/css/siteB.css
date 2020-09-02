@@ -1,5 +1,5 @@
 body {
-    font-family: sans-serif;
+    font-family: cursive;
     color: #123456;
 }
 
@@ -14,13 +14,13 @@ td {
 ul {
     list-style-type: circle;
     font-size: 20;
-    
+
 }
 
 body#Landing {
-  background-image: url(../../5-CentreLincolnStatueGood2.jpg);
-  background-repeat: no-repeat;
-  background-position:top;
+    background-image: url(../../5-CentreLincolnStatueGood2.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
 }
 
 body#StudioArt {
@@ -51,7 +51,7 @@ body#Mathematics {
 
 img {
     float: left;
-    width:  100px;
+    width: 100px;
     height: 100px;
     object-fit: cover;
 }
