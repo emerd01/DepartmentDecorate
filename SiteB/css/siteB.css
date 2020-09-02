@@ -1,6 +1,6 @@
 body {
     font-family: cursive;
-    color: #123456;
+    color: black;
 }
 
 table,
@@ -14,13 +14,37 @@ td {
 ul {
     list-style-type: circle;
     font-size: 20;
+    float: right;
+    font-weight: bolder
 
 }
 
+h1,
+p {
+    text-align: center;
+    font-weight: bolder
+}
+
+h1{
+    font-size: 250%
+}
+
+p{
+    font-size: 20
+}
+
+a:visited {
+    color: black;
+}
+
+a:link {
+    color: black;
+}
+
 body#Landing {
-    background-image: url(../../5-CentreLincolnStatueGood2.jpg);
+    background-image: url(../../Centre_Outdoor_Class.jpg);
     background-repeat: no-repeat;
-    background-position: top;
+    background-size: cover;
 }
 
 body#StudioArt {
