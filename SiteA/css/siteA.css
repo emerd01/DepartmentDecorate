@@ -17,7 +17,6 @@ ul {
     font-size: 20;
     color: white;
     text-align: center
-
 }
 
 li {
@@ -28,10 +27,14 @@ a:visited {
     color: black;
 }
 
+a:link {
+    color: black;
+}
+
 body#Landing {
     background-image: url(../../04202017_Campus_Spring_00027.jpg);
     background-repeat: no-repeat;
-    
+
     background-size: cover;
 }
 
@@ -42,7 +45,7 @@ p {
 
 body#StudioArt {
     background-color: #c4aee6;
-    color: #851878
+    color: #851878;
 }
 
 body#Economics {
