@@ -1,1 +1,63 @@
+body {
+    font-family: sans-serif;
+    color: #123456;
+}
 
+table,
+th,
+td {
+    border: 1px solid black;
+    padding: 5;
+    border-collapse: collapse;
+    
+}
+
+
+ul {
+    list-style-type: circle;
+    font-size: 20;
+    
+}
+
+body#Landing {
+  background-image: url(../../YqeacV4f.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+h1, p {
+    text-align: center
+}
+
+body#StudioArt {
+    background-color: #c4aee6;
+    color: #851878
+}
+
+body#Economics {
+    background-color: #f2b6a5;
+    color: #7a0023
+}
+
+body#Politics {
+    background-color: #C5CBE3;
+    color: #59007a
+}
+
+body#ComputerScience {
+    background-color: #e6ffeb;
+    color: #007a06
+}
+
+body#Mathematics {
+    background-color: #aae1f0
+}
+
+
+
+img {
+    float: left;
+    width:  100px;
+    height: 100px;
+    object-fit: cover;
+}
