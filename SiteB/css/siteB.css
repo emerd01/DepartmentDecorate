@@ -1,35 +1,40 @@
 body {
     font-family: cursive;
     color: black;
+    background-color: rgba(255, 255, 255, .4)
 }
 
 table,
 th,
 td {
-    border: 1px solid black;
-    padding: 5;
+    border: 2px solid black;
+    padding: 5px;
     border-collapse: collapse;
+
+
 }
 
 ul {
     list-style-type: circle;
     font-size: 20;
     float: right;
-    font-weight: bolder
-
+    font-weight: bolder;
+    background-color: rgba(255, 255, 255, .4);
+    background-blend-mode: darken
 }
 
 h1,
 p {
     text-align: center;
-    font-weight: bolder
+    font-weight: bolder;
+    background-color: rgba(255, 255, 255, .4)
 }
 
-h1{
+h1 {
     font-size: 250%
 }
 
-p{
+p {
     font-size: 20
 }
 
@@ -47,29 +52,15 @@ body#Landing {
     background-size: cover;
 }
 
-body#StudioArt {
-    background-color: #c4aee6;
-    color: #851878
-}
+body#StudioArt {}
 
-body#Economics {
-    background-color: #f2b6a5;
-    color: #b56c00
-}
+body#Economics {}
 
-body#Politics {
-    background-color: #C5CBE3;
-    color: #59007a
-}
+body#Politics {}
 
-body#ComputerScience {
-    background-color: #e6ffeb;
-    color: #007a06
-}
+body#ComputerScience {}
 
-body#Mathematics {
-    background-color: #aae1f0
-}
+body#Mathematics {}
 
 
 
